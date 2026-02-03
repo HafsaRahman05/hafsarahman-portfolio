@@ -10,7 +10,7 @@ export type Skill = {
   icon?: string;
 };
 
-export type ProjectCategory = 'AI / ML' | 'Database' | 'Web' | 'Game Development';
+export type ProjectCategory = 'AI / ML' | 'Web' | 'Academic';
 
 export type Project = {
   id: string;

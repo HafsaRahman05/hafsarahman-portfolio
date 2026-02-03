@@ -11,7 +11,7 @@ export const skills: Skill[] = [
   // Programming
   { name: 'TypeScript', category: 'Programming', icon: 'FileJson' },
   { name: 'JavaScript', category: 'Programming', icon: 'FileJson2' },
-  { name: 'Python', category: 'Programming', icon: 'Pyramid' },
+  { name: 'Python', category: 'Programming', icon: 'Code' },
   { name: 'Java', category: 'Programming', icon: 'Coffee' },
   { name: 'C++', category: 'Programming', icon: 'FileCode' },
   { name: 'HTML', category: 'Programming', icon: 'FileCode2' },
@@ -27,7 +27,7 @@ export const skills: Skill[] = [
 
   // Cloud & DevOps
   { name: 'Docker', category: 'Cloud & DevOps', icon: 'Container' },
-  { name: 'Kubernetes', category: 'Cloud & DevOps', icon: 'ShipWheel' },
+  { name: 'Kubernetes', category: 'Cloud & DevOps', icon: 'Network' },
   { name: 'Vercel', category: 'Cloud & DevOps', icon: 'Triangle' },
   { name: 'Render', category: 'Cloud & DevOps', icon: 'Rocket' },
   { name: 'Railway', category: 'Cloud & DevOps', icon: 'TrainFront' },
@@ -42,53 +42,99 @@ export const skills: Skill[] = [
   { name: 'VS Code', category: 'Tools & Frameworks', icon: 'Terminal' },
 ];
 
-export const projectCategories: ProjectCategory[] = ['AI / ML', 'Database', 'Web', 'Game Development'];
+export const projectCategories: ProjectCategory[] = ['AI / ML', 'Web', 'Academic'];
 
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'Intelligent Customer Support Chatbot',
+    title: 'SHIFA – Healthcare Management System',
     description:
-      'A chatbot built with natural language processing to automate customer support, understand user queries, and provide instant, accurate responses. Reduces wait times and improves user satisfaction.',
-    techStack: ['Python', 'TensorFlow', 'NLTK', 'Flask'],
-    liveLink: 'https://example.com',
-    githubLink: 'https://github.com',
-    category: 'AI / ML',
-    image: 'https://picsum.photos/seed/1/800/600',
-    imageHint: 'AI chatbot',
+      'A full-featured hospital management system for patient records, doctor scheduling, and medical history management.',
+    techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Vercel'],
+    liveLink: 'https://shifa-840.vercel.app/',
+    githubLink: 'https://github.com/HafsaRahman05/SHIFA',
+    category: 'Web',
+    image: 'https://picsum.photos/seed/shifa/800/600',
+    imageHint: 'hospital dashboard',
   },
   {
     id: '2',
-    title: 'E-commerce Analytics Dashboard',
+    title: 'Hecto – Smart Utility App',
     description:
-      'A real-time analytics dashboard for an e-commerce platform. It processes and visualizes sales data, customer behavior, and inventory levels to provide actionable insights for business growth.',
-    techStack: ['Firebase Firestore', 'React', 'D3.js', 'Node.js'],
-    githubLink: 'https://github.com',
-    category: 'Database',
-    image: 'https://picsum.photos/seed/2/800/600',
-    imageHint: 'data dashboard',
+      'A web platform with interactive features for daily utilities and productivity tools.',
+    techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
+    liveLink: 'https://hecto-hafsarahman-final.vercel.app/',
+    githubLink: 'https://github.com/HafsaRahman05/hecto-hafsarahman',
+    category: 'Web',
+    image: 'https://picsum.photos/seed/hecto/800/600',
+    imageHint: 'web app dashboard',
   },
   {
     id: '3',
-    title: 'Modern Portfolio Website',
+    title: 'Physical AI Humanoid Textbook',
     description:
-      'A fully responsive personal portfolio website built with Next.js and Tailwind CSS. Features a clean design, smooth animations, and a content management system for easy updates.',
-    techStack: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript'],
-    liveLink: 'https://example.com',
-    githubLink: 'https://github.com',
-    category: 'Web',
-    image: 'https://picsum.photos/seed/3/800/600',
-    imageHint: 'web design',
+      'An AI-driven interactive platform for learning humanoid robotics concepts with live simulations and tutorials.',
+    techStack: ['Docusaurus', 'Claude API', 'Spec-Kit Plus', 'GitHub Pages'],
+    liveLink: 'https://hafsarahman05.github.io/physical-ai-humanoid-textbook/',
+    githubLink: 'https://github.com/HafsaRahman05/physical-ai-humanoid-textbook',
+    category: 'AI / ML',
+    image: 'https://picsum.photos/seed/humanoid/800/600',
+    imageHint: 'humanoid robot',
   },
   {
     id: '4',
-    title: '2D Platformer Adventure Game',
+    title: 'RAG Chatbot',
     description:
-      'A classic 2D platformer game with unique levels, enemies, and power-ups. Built with a custom game engine focusing on performance and fluid character controls.',
-    techStack: ['Java', 'LibGDX', 'Custom Engine'],
-    githubLink: 'https://github.com',
-    category: 'Game Development',
-    image: 'https://picsum.photos/seed/4/800/600',
-    imageHint: 'game development',
+      'An intelligent chatbot using Retrieval-Augmented Generation to provide context-aware responses, built with OpenAI agents and a vector database.',
+    techStack: ['OpenAI Agents', 'ChatKit SDK', 'FastAPI', 'Qdrant Cloud'],
+    githubLink: 'https://github.com/HafsaRahman05',
+    category: 'AI / ML',
+    image: 'https://picsum.photos/seed/rag-bot/800/600',
+    imageHint: 'AI chatbot conversation',
   },
+  {
+    id: '5',
+    title: 'SDA Project – Data Analysis App',
+    description:
+      'A web app for analyzing large datasets, visualizing trends, and generating interactive reports.',
+    techStack: ['Python', 'Streamlit', 'Pandas', 'Matplotlib'],
+    liveLink: 'https://sda-project-vqrgbocq5xqrno65o2u65u.streamlit.app/',
+    githubLink: 'https://github.com/HafsaRahman05/sda-project',
+    category: 'AI / ML',
+    image: 'https://picsum.photos/seed/sda/800/600',
+    imageHint: 'data analysis dashboard',
+  },
+  {
+    id: '6',
+    title: 'Resume Analyzer – AI/ML',
+    description: 'A resume parsing and analysis tool to extract text, perform an ATS-style rewrite, and recommend jobs based on candidate skills and experience.',
+    techStack: ['Python', 'FastAPI', 'Railway'],
+    liveLink: 'https://web-production-82094.up.railway.app/',
+    githubLink: 'https://github.com/HafsaRahman05/Resume-Analyzer-SCD',
+    category: 'AI / ML',
+    image: 'https://picsum.photos/seed/resume/800/600',
+    imageHint: 'resume analysis',
+  },
+  {
+    id: '7',
+    title: 'CPU Scheduling Algorithms Simulator',
+    description:
+      'An interactive simulator demonstrating various CPU scheduling algorithms with visual feedback for educational purposes.',
+    techStack: ['Python', 'GUI'],
+    githubLink: 'https://github.com/HafsaRahman05/CPU-Scheduling-Algorithms-Simulator-OS',
+    category: 'Academic',
+    image: 'https://picsum.photos/seed/cpu/800/600',
+    imageHint: 'cpu simulator',
+  },
+  {
+    id: '8',
+    title: '2D Transformations Visualizer',
+    description:
+      'A visual tool to demonstrate 2D geometric transformations like rotation, scaling, translation, and reflection.',
+    techStack: ['Python', 'Graphics Library'],
+    githubLink: 'https://github.com/HafsaRahman05/2D-transformations',
+    category: 'Academic',
+    image: 'https://picsum.photos/seed/2d-viz/800/600',
+    imageHint: 'geometric shapes',
+  }
 ];
