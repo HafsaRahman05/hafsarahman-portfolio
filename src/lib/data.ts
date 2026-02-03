@@ -94,15 +94,15 @@ export const projects: Project[] = [
   },
   {
     id: '5',
-    title: 'SDA Project – Data Analysis App',
+    title: 'Inventory Management system',
     description:
-      'A web app for analyzing large datasets, visualizing trends, and generating interactive reports.',
+      'A system for tracking products, managing stock levels, and handling sales.',
     techStack: ['Python', 'Streamlit', 'Pandas', 'Matplotlib'],
     liveLink: 'https://sda-project-vqrgbocq5xqrno65o2u65u.streamlit.app/',
     githubLink: 'https://github.com/HafsaRahman05/sda-project',
-    category: 'AI / ML',
+    category: 'Web',
     image: 'https://raw.githubusercontent.com/HafsaRahman05/image/main/image%20copy%204.png',
-    imageHint: 'data analysis',
+    imageHint: 'inventory management',
   },
   {
     id: '6',
