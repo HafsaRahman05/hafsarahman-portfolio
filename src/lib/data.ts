@@ -89,7 +89,7 @@ export const projects: Project[] = [
     techStack: ['OpenAI Agents', 'ChatKit SDK', 'FastAPI', 'Qdrant Cloud'],
     githubLink: 'https://github.com/HafsaRahman05',
     category: 'AI / ML',
-    image: 'https://picsum.photos/seed/rag-bot/800/600',
+    image: 'https://raw.githubusercontent.com/HafsaRahman05/image/main/image%20copy%203.png',
     imageHint: 'AI chatbot conversation',
   },
   {
