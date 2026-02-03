@@ -1,22 +1,45 @@
 import type { Project, Skill, ProjectCategory, SkillCategory } from './types';
 
-export const skillCategories: SkillCategory[] = ['Programming', 'AI / ML', 'Databases', 'Tools'];
+export const skillCategories: SkillCategory[] = [
+  'Programming',
+  'AI / ML',
+  'Cloud & DevOps',
+  'Tools & Frameworks',
+];
 
 export const skills: Skill[] = [
-  { name: 'HTML', category: 'Programming', icon: 'FileCode' },
-  { name: 'CSS', category: 'Programming', icon: 'Paintbrush' },
+  // Programming
+  { name: 'TypeScript', category: 'Programming', icon: 'FileJson' },
   { name: 'JavaScript', category: 'Programming', icon: 'FileJson2' },
   { name: 'Python', category: 'Programming', icon: 'Pyramid' },
   { name: 'Java', category: 'Programming', icon: 'Coffee' },
-  { name: 'Data Preprocessing', category: 'AI / ML', icon: 'Scaling' },
-  { name: 'Model Training', category: 'AI / ML', icon: 'BrainCircuit' },
-  { name: 'Basic ML Algorithms', category: 'AI / ML', icon: 'Bot' },
-  { name: 'Firebase Firestore', category: 'Databases', icon: 'Database' },
-  { name: 'Database Design', category: 'Databases', icon: 'DatabaseZap' },
-  { name: 'Git', category: 'Tools', icon: 'GitMerge' },
-  { name: 'GitHub', category: 'Tools', icon: 'Github' },
-  { name: 'Firebase', category: 'Tools', icon: 'Flame' },
-  { name: 'VS Code', category: 'Tools', icon: 'Code' },
+  { name: 'C++', category: 'Programming', icon: 'FileCode' },
+  { name: 'HTML', category: 'Programming', icon: 'FileCode2' },
+  { name: 'CSS', category: 'Programming', icon: 'Paintbrush' },
+
+  // AI / ML
+  { name: 'Gemini & Claude APIs', category: 'AI / ML', icon: 'BrainCircuit' },
+  { name: 'AI Agents & SDKs', category: 'AI / ML', icon: 'Bot' },
+  { name: 'Hugging Face', category: 'AI / ML', icon: 'Smile' },
+  { name: 'TensorFlow', category: 'AI / ML', icon: 'Scaling' },
+  { name: 'Model Training', category: 'AI / ML', icon: 'Cog' },
+  { name: 'Data Preprocessing', category: 'AI / ML', icon: 'Filter' },
+
+  // Cloud & DevOps
+  { name: 'Docker', category: 'Cloud & DevOps', icon: 'Container' },
+  { name: 'Kubernetes', category: 'Cloud & DevOps', icon: 'ShipWheel' },
+  { name: 'Vercel', category: 'Cloud & DevOps', icon: 'Triangle' },
+  { name: 'Render', category: 'Cloud & DevOps', icon: 'Rocket' },
+  { name: 'Railway', category: 'Cloud & DevOps', icon: 'TrainFront' },
+
+  // Tools & Frameworks
+  { name: 'Next.js', category: 'Tools & Frameworks', icon: 'Webhook' },
+  { name: 'React', category: 'Tools & Frameworks', icon: 'Atom' },
+  { name: 'FastAPI', category: 'Tools & Frameworks', icon: 'Server' },
+  { name: 'Tailwind CSS', category: 'Tools & Frameworks', icon: 'Wind' },
+  { name: 'Firebase', category: 'Tools & Frameworks', icon: 'Flame' },
+  { name: 'Git & GitHub', category: 'Tools & Frameworks', icon: 'Github' },
+  { name: 'VS Code', category: 'Tools & Frameworks', icon: 'Terminal' },
 ];
 
 export const projectCategories: ProjectCategory[] = ['AI / ML', 'Database', 'Web', 'Game Development'];

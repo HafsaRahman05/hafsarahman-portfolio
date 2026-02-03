@@ -1,4 +1,8 @@
-export type SkillCategory = 'Programming' | 'AI / ML' | 'Databases' | 'Tools';
+export type SkillCategory =
+  | 'Programming'
+  | 'AI / ML'
+  | 'Cloud & DevOps'
+  | 'Tools & Frameworks';
 
 export type Skill = {
   name: string;
