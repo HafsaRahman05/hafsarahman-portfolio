@@ -41,7 +41,7 @@ export function ContactSection() {
   return (
     <section id="contact" className="container mx-auto px-4">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl font-headline">Contact Me</h2>
+        <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl font-headline animate-text-gradient bg-gradient-to-r from-accent via-primary to-accent bg-[200%_auto] bg-clip-text text-transparent">Contact Me</h2>
         <p className="max-w-[700px] mx-auto mt-4 text-muted-foreground md:text-xl">
           Have a question or want to work together? I'd love to hear from you.
         </p>

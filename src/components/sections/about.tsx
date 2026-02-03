@@ -7,7 +7,7 @@ export function AboutSection() {
   return (
     <section id="about" className="container mx-auto px-4">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl font-headline">About Me</h2>
+        <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl font-headline animate-text-gradient bg-gradient-to-r from-accent via-primary to-accent bg-[200%_auto] bg-clip-text text-transparent">About Me</h2>
         <p className="max-w-[700px] mx-auto mt-4 text-muted-foreground md:text-xl">
           My journey and passion for technology.
         </p>

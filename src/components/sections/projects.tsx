@@ -10,7 +10,7 @@ export function ProjectsSection() {
   return (
     <section id="projects" className="container mx-auto px-4">
       <div className="space-y-4 text-center mb-12">
-        <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl font-headline">My Projects</h2>
+        <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl font-headline animate-text-gradient bg-gradient-to-r from-accent via-primary to-accent bg-[200%_auto] bg-clip-text text-transparent">My Projects</h2>
         <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl">
           A collection of my academic and personal projects. The card layout is dynamically chosen by a GenAI model!
         </p>
