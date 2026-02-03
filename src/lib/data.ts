@@ -134,7 +134,7 @@ export const projects: Project[] = [
     techStack: ['Python', 'Graphics Library'],
     githubLink: 'https://github.com/HafsaRahman05/2D-transformations',
     category: 'Academic',
-    image: 'https://picsum.photos/seed/transform/800/600',
-    imageHint: 'geometric shapes',
+    image: 'https://picsum.photos/seed/shapes/800/600',
+    imageHint: '2D shapes',
   }
 ];
