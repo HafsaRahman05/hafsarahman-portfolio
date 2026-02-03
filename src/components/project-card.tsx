@@ -1,12 +1,11 @@
 import Image from 'next/image';
 import { Github, Globe } from 'lucide-react';
-import { determineProjectCardLayout } from '@/ai/flows/project-card-layout';
 import type { Project } from '@/lib/types';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 
-async function ProjectCardContent({ project }: { project: Project }) {
+function ProjectCardContent({ project }: { project: Project }) {
   return (
     <>
       <CardHeader>
@@ -48,15 +47,8 @@ async function ProjectCardContent({ project }: { project: Project }) {
   );
 }
 
-export async function ProjectCard({ project }: { project: Project }) {
-  const layout = await determineProjectCardLayout({
-    projectTitle: project.title,
-    projectDescription: project.description,
-    techStack: project.techStack.join(', '),
-    liveLink: project.liveLink,
-    githubLink: project.githubLink,
-    category: project.category,
-  });
+export function ProjectCard({ project, index }: { project: Project; index: number }) {
+  const layoutType = index % 2 === 0 ? 'image-left' : 'image-right';
 
   const imageElement = (
     <div className="relative w-full h-64 md:h-auto overflow-hidden">
@@ -74,22 +66,13 @@ export async function ProjectCard({ project }: { project: Project }) {
   
   const cardClasses = "group h-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-2xl hover:shadow-accent/20 hover:-translate-y-2 bg-card/50 backdrop-blur-lg border border-white/10";
 
-
-  if (layout.layoutType === 'text-only') {
-    return (
-      <Card className={`${cardClasses} flex flex-col`}>
-        <ProjectCardContent project={project} />
-      </Card>
-    );
-  }
-
   return (
     <Card className={`${cardClasses} grid md:grid-cols-2 items-stretch`}>
-      {layout.layoutType === 'image-left' && imageElement}
+      {layoutType === 'image-left' && imageElement}
       <div className="flex flex-col">
         <ProjectCardContent project={project} />
       </div>
-      {layout.layoutType === 'image-right' && imageElement}
+      {layoutType === 'image-right' && imageElement}
     </Card>
   );
 }
