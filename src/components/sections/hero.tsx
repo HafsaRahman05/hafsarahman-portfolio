@@ -4,7 +4,8 @@ import { Github, Linkedin, ArrowRight } from 'lucide-react';
 
 export function HeroSection() {
   return (
-    <section id="home" className="container mx-auto flex h-[calc(100vh-4rem)] min-h-[600px] items-center justify-center px-4 text-center">
+    <section id="home" className="relative container mx-auto flex h-[calc(100vh-4rem)] min-h-[600px] items-center justify-center px-4 text-center">
+       <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       <div className="flex flex-col items-center space-y-8">
         <div className="space-y-4">
           <h1 className="text-5xl font-bold tracking-tighter sm:text-7xl md:text-8xl font-headline 

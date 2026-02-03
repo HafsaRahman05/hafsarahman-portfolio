@@ -78,9 +78,6 @@
     min-height: 100vh;
     background-color: hsl(var(--background));
   }
-  .dark body {
-    background-image: radial-gradient(ellipse 80% 80% at 50% -20%,rgba(120,119,198,0.3),hsla(0,0%,100%,0));
-  }
 }
 
 @keyframes text-gradient {
