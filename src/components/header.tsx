@@ -18,7 +18,7 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-background/80 backdrop-blur-lg">
+    <header className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-lg">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
           <Logo className="h-6 w-6 text-accent" />
@@ -30,7 +30,7 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-white transition-colors hover:text-accent"
+              className="text-sm font-medium text-foreground transition-colors hover:text-accent"
             >
               {link.label}
             </Link>
@@ -51,13 +51,13 @@ export function Header() {
         </div>
       </div>
       {isMenuOpen && (
-        <div className="md:hidden border-t border-white/10">
+        <div className="md:hidden border-t border-border">
           <nav className="container flex flex-col gap-4 px-4 py-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-white transition-colors hover:text-accent"
+                className="text-sm font-medium text-foreground transition-colors hover:text-accent"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}

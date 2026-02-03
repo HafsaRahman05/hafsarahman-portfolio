@@ -48,7 +48,7 @@ export function ContactSection() {
       </div>
 
       <div className="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
-        <Card className="bg-card/50 backdrop-blur-lg border border-white/10">
+        <Card className="bg-card/50 backdrop-blur-lg border border-border">
           <CardHeader>
             <CardTitle>Send a Message</CardTitle>
           </CardHeader>

@@ -16,7 +16,7 @@ export function AboutSection() {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="w-full max-w-md mx-auto relative">
           {aboutImage && (
-            <Card className="overflow-hidden shadow-2xl shadow-accent/10 border border-white/10 rounded-xl">
+            <Card className="overflow-hidden shadow-2xl shadow-accent/10 border border-border rounded-xl">
                 <Image 
                     src={aboutImage.imageUrl} 
                     alt="A portrait" 

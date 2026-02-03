@@ -15,7 +15,7 @@ export function SkillsSection() {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {skillCategories.map((category) => (
-          <Card key={category} className="bg-card/50 backdrop-blur-lg border border-white/10 shadow-lg h-full">
+          <Card key={category} className="bg-card/50 backdrop-blur-lg border border-border shadow-lg h-full">
             <CardHeader>
               <CardTitle className="font-headline text-2xl flex items-center gap-3">
                 <IconHexagon className="w-7 h-7 text-accent" />

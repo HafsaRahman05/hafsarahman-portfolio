@@ -64,7 +64,7 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
     </div>
   );
   
-  const cardClasses = "group h-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-2xl hover:shadow-accent/20 hover:-translate-y-2 bg-card/50 backdrop-blur-lg border border-white/10";
+  const cardClasses = "group h-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-2xl hover:shadow-accent/20 hover:-translate-y-2 bg-card/50 backdrop-blur-lg border border-border";
 
   return (
     <Card className={`${cardClasses} grid md:grid-cols-2 items-stretch`}>
