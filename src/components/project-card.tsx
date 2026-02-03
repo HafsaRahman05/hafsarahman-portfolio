@@ -56,7 +56,7 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
         src={project.image}
         alt={project.title}
         fill
-        className="object-cover rounded-t-lg md:rounded-t-none group-hover:scale-95 transition-transform duration-500"
+        className="object-contain rounded-t-lg md:rounded-t-none transition-transform duration-500"
         data-ai-hint={project.imageHint}
         sizes="(max-width: 768px) 100vw, 50vw"
       />
@@ -64,7 +64,7 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
     </div>
   );
   
-  const cardClasses = "group h-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-2xl hover:shadow-accent/20 hover:-translate-y-2 bg-card/50 backdrop-blur-lg border border-border";
+  const cardClasses = "h-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-2xl hover:shadow-accent/20 hover:-translate-y-2 bg-card/50 backdrop-blur-lg border border-border";
 
   return (
     <Card className={`${cardClasses} grid md:grid-cols-2 items-stretch`}>
