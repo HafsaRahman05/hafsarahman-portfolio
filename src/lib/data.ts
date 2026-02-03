@@ -59,15 +59,15 @@ export const projects: Project[] = [
   },
   {
     id: '2',
-    title: 'Hecto – Smart Utility App',
+    title: 'Hecto – Ecommerce website',
     description:
-      'A web platform with interactive features for daily utilities and productivity tools.',
+      'A modern e-commerce website with a clean user interface for browsing and purchasing products.',
     techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
     liveLink: 'https://hecto-hafsarahman-final.vercel.app/',
     githubLink: 'https://github.com/HafsaRahman05/hecto-hafsarahman',
     category: 'Web',
     image: 'https://raw.githubusercontent.com/HafsaRahman05/image/main/Screenshot%202026-02-03%20225902.png',
-    imageHint: 'web app dashboard',
+    imageHint: 'ecommerce website',
   },
   {
     id: '3',
