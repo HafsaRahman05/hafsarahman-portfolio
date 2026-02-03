@@ -84,7 +84,7 @@ export function ContactSection() {
                         <p className="text-sm text-muted-foreground">View my projects and contributions</p>
                     </div>
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group p-4 rounded-lg hover:bg-secondary transition-colors">
+                <a href="https://www.linkedin.com/in/hafsa-rahman-8268022b6" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group p-4 rounded-lg hover:bg-secondary transition-colors">
                     <Linkedin className="w-8 h-8 text-muted-foreground group-hover:text-primary transition-colors" />
                     <div>
                         <p className="font-semibold text-primary">LinkedIn</p>
