@@ -56,7 +56,7 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
         src={project.image}
         alt={project.title}
         fill
-        className="object-cover rounded-t-lg md:rounded-t-none group-hover:scale-105 transition-transform duration-500"
+        className="object-cover rounded-t-lg md:rounded-t-none group-hover:scale-95 transition-transform duration-500"
         data-ai-hint={project.imageHint}
         sizes="(max-width: 768px) 100vw, 50vw"
       />
