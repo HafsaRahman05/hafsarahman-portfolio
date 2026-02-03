@@ -77,7 +77,7 @@ export function ContactSection() {
         <div className="space-y-6 flex flex-col justify-center">
             <h3 className="text-2xl font-semibold font-headline text-primary">Or find me on social media</h3>
             <div className="space-y-4">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group p-4 rounded-lg hover:bg-secondary transition-colors">
+                <a href="https://github.com/HafsaRahman05" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group p-4 rounded-lg hover:bg-secondary transition-colors">
                     <Github className="w-8 h-8 text-muted-foreground group-hover:text-primary transition-colors" />
                     <div>
                         <p className="font-semibold text-primary">GitHub</p>
