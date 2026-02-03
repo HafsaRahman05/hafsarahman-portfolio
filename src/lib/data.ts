@@ -112,7 +112,7 @@ export const projects: Project[] = [
     liveLink: 'https://web-production-82094.up.railway.app/',
     githubLink: 'https://github.com/HafsaRahman05/Resume-Analyzer-SCD',
     category: 'AI / ML',
-    image: 'https://picsum.photos/seed/resume/800/600',
+    image: 'https://raw.githubusercontent.com/HafsaRahman05/image/main/Screenshot%202026-02-03%20225937.png',
     imageHint: 'resume analysis',
   },
   {
