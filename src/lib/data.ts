@@ -54,7 +54,7 @@ export const projects: Project[] = [
     liveLink: 'https://shifa-840.vercel.app/',
     githubLink: 'https://github.com/HafsaRahman05/SHIFA',
     category: 'Web',
-    image: 'https://picsum.photos/id/594/800/600',
+    image: '/shifa-dashboard.png',
     imageHint: 'hospital dashboard',
   },
   {
@@ -66,7 +66,7 @@ export const projects: Project[] = [
     liveLink: 'https://hecto-hafsarahman-final.vercel.app/',
     githubLink: 'https://github.com/HafsaRahman05/hecto-hafsarahman',
     category: 'Web',
-    image: '/image copy.png',
+    image: '/hecto-dashboard.png',
     imageHint: 'web app dashboard',
   },
   {
