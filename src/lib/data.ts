@@ -123,7 +123,7 @@ export const projects: Project[] = [
     techStack: ['Python', 'GUI'],
     githubLink: 'https://github.com/HafsaRahman05/CPU-Scheduling-Algorithms-Simulator-OS',
     category: 'Academic',
-    image: 'https://picsum.photos/seed/cpu/800/600',
+    image: 'https://raw.githubusercontent.com/HafsaRahman05/image/main/Screenshot%202026-02-03%20232004.png',
     imageHint: 'cpu simulator',
   },
   {
