@@ -66,7 +66,7 @@ export const projects: Project[] = [
     liveLink: 'https://hecto-hafsarahman-final.vercel.app/',
     githubLink: 'https://github.com/HafsaRahman05/hecto-hafsarahman',
     category: 'Web',
-    image: 'https://raw.githubusercontent.com/HafsaRahman05/image/main/image%20copy.png',
+    image: 'https://raw.githubusercontent.com/HafsaRahman05/image/main/Screenshot%202026-02-03%20225902.png',
     imageHint: 'web app dashboard',
   },
   {
