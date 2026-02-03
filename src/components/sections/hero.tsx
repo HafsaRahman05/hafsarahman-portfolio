@@ -4,9 +4,13 @@ import { Github, Linkedin, ArrowRight } from 'lucide-react';
 
 export function HeroSection() {
   return (
-    <section id="home" className="relative container mx-auto flex h-[calc(100vh-4rem)] min-h-[600px] items-center justify-center px-4 text-center">
-       <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-      <div className="flex flex-col items-center space-y-8">
+    <section id="home" className="relative container mx-auto flex h-[calc(100vh-4rem)] min-h-[600px] items-center justify-center px-4 text-center overflow-hidden">
+       <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+            <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-accent rounded-full mix-blend-soft-light filter blur-2xl opacity-15 animate-blob"></div>
+            <div className="absolute top-1/2 right-1/4 w-72 h-72 bg-primary rounded-full mix-blend-soft-light filter blur-2xl opacity-15 animate-blob animation-delay-2000"></div>
+            <div className="absolute bottom-1/4 left-1/3 w-72 h-72 bg-secondary rounded-full mix-blend-soft-light filter blur-2xl opacity-15 animate-blob animation-delay-4000"></div>
+       </div>
+      <div className="relative z-10 flex flex-col items-center space-y-8">
         <div className="space-y-4">
           <h1 className="text-5xl font-bold tracking-tighter sm:text-7xl md:text-8xl font-headline 
                          animate-text-gradient bg-gradient-to-r from-accent via-primary to-accent bg-[200%_auto] bg-clip-text text-transparent">
