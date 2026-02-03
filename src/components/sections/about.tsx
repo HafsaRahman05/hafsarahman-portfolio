@@ -31,10 +31,10 @@ export function AboutSection() {
         <div className="space-y-6 text-muted-foreground md:text-lg">
             <h3 className="text-2xl font-bold font-headline text-primary">Software Engineering Student</h3>
             <p>
-              I am a passionate Software Engineering student with a strong focus on building practical, project-based experience. My primary interests lie at the intersection of Artificial Intelligence, Machine Learning, and robust Database Systems. I'm constantly exploring new technologies and methodologies to create efficient and intelligent solutions.
+              I am a passionate Software Engineering student with a strong focus on building practical, project-based experience. My portfolio showcases my journey through AI/ML and full-stack web development. I have hands-on experience developing intelligent applications using Gemini and Claude APIs, and building dynamic web experiences with Next.js, React, and Firebase.
             </p>
             <p>
-              Beyond my core focus, I also have a keen interest in Web and Game Development, which allows me to be creative and build engaging user experiences. I thrive on a strong learning mindset and am always eager to tackle new challenges and expand my skill set.
+              My projects, from AI-powered chatbots to comprehensive healthcare management systems, demonstrate my ability to work with modern tools like FastAPI, Docker, and various cloud platforms. I'm always eager to learn and apply new technologies to create efficient, scalable, and intelligent solutions. I thrive on a strong learning mindset and am always eager to tackle new challenges and expand my skill set.
             </p>
           </div>
       </div>
