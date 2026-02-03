@@ -22,7 +22,7 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
           <Logo className="h-6 w-6 text-accent" />
-          <span className="text-lg font-bold font-headline text-primary">Portfolio Pro</span>
+          <span className="text-lg font-bold font-headline text-primary">Hafsa Rahman</span>
         </Link>
 
         <nav className="hidden items-center gap-6 md:flex">
@@ -30,7 +30,7 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              className="text-sm font-medium text-white transition-colors hover:text-accent"
             >
               {link.label}
             </Link>
@@ -57,7 +57,7 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+                className="text-sm font-medium text-white transition-colors hover:text-accent"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}
