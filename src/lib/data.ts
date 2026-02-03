@@ -101,8 +101,8 @@ export const projects: Project[] = [
     liveLink: 'https://sda-project-vqrgbocq5xqrno65o2u65u.streamlit.app/',
     githubLink: 'https://github.com/HafsaRahman05/sda-project',
     category: 'AI / ML',
-    image: 'https://picsum.photos/seed/sda/800/600',
-    imageHint: 'data analysis dashboard',
+    image: 'https://raw.githubusercontent.com/HafsaRahman05/image/main/image%20copy%204.png',
+    imageHint: 'data analysis',
   },
   {
     id: '6',
