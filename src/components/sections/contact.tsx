@@ -1,7 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
-import { useEffect } from 'react';
+import { useFormStatus } from 'react-dom';
+import { useActionState, useEffect } from 'react';
 import { Github, Linkedin, Send } from 'lucide-react';
 import { submitContactForm, type FormState } from '@/lib/actions';
 import { useToast } from '@/hooks/use-toast';
@@ -24,7 +24,7 @@ function SubmitButton() {
 export function ContactSection() {
   const { toast } = useToast();
   const initialState: FormState = { message: '', status: 'idle' };
-  const [state, formAction] = useFormState(submitContactForm, initialState);
+  const [state, formAction] = useActionState(submitContactForm, initialState);
 
   useEffect(() => {
     if (state.status === 'success') {
