@@ -9,7 +9,7 @@ export function HeroSection() {
         <div className="space-y-4">
           <h1 className="text-5xl font-bold tracking-tighter sm:text-7xl md:text-8xl font-headline 
                          animate-text-gradient bg-gradient-to-r from-accent via-primary to-accent bg-[200%_auto] bg-clip-text text-transparent">
-            Portfolio Pro
+            i dont like this
           </h1>
           <p className="text-lg text-muted-foreground md:text-xl">
             Software Engineering Student
