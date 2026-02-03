@@ -9,15 +9,15 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 export function ProjectsSection() {
   return (
     <section id="projects" className="container mx-auto px-4">
-      <div className="space-y-4 text-center">
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl font-headline">My Projects</h2>
+      <div className="space-y-4 text-center mb-12">
+        <h2 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl font-headline">My Projects</h2>
         <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl">
           A collection of my academic and personal projects. The card layout is dynamically chosen by a GenAI model!
         </p>
       </div>
 
       <Tabs defaultValue="All" className="mt-8">
-        <TabsList className="grid w-full max-w-lg mx-auto grid-cols-3 md:grid-cols-5">
+        <TabsList className="grid w-full max-w-lg mx-auto grid-cols-3 md:grid-cols-5 bg-secondary/50">
           <TabsTrigger value="All">All</TabsTrigger>
           {projectCategories.map((category) => (
             <TabsTrigger key={category} value={category}>

@@ -6,7 +6,6 @@ import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { Logo } from '@/components/icons';
-import { cn } from '@/lib/utils';
 
 const navLinks = [
   { href: '#about', label: 'About' },
@@ -19,11 +18,11 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/90 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-background/80 backdrop-blur-lg">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <Logo className="h-6 w-6 text-primary" />
-          <span className="text-lg font-bold font-headline">Portfolio Pro</span>
+          <Logo className="h-6 w-6 text-accent" />
+          <span className="text-lg font-bold font-headline text-primary">Portfolio Pro</span>
         </Link>
 
         <nav className="hidden items-center gap-6 md:flex">
@@ -52,7 +51,7 @@ export function Header() {
         </div>
       </div>
       {isMenuOpen && (
-        <div className="md:hidden border-t">
+        <div className="md:hidden border-t border-white/10">
           <nav className="container flex flex-col gap-4 px-4 py-4">
             {navLinks.map((link) => (
               <Link

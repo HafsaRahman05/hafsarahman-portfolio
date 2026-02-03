@@ -3,20 +3,20 @@ import type { Project, Skill, ProjectCategory, SkillCategory } from './types';
 export const skillCategories: SkillCategory[] = ['Programming', 'AI / ML', 'Databases', 'Tools'];
 
 export const skills: Skill[] = [
-  { name: 'HTML', category: 'Programming' },
-  { name: 'CSS', category: 'Programming' },
-  { name: 'JavaScript', category: 'Programming' },
-  { name: 'Python', category: 'Programming' },
-  { name: 'Java', category: 'Programming' },
-  { name: 'Data Preprocessing', category: 'AI / ML' },
-  { name: 'Model Training', category: 'AI / ML' },
-  { name: 'Basic ML Algorithms', category: 'AI / ML' },
-  { name: 'Firebase Firestore', category: 'Databases' },
-  { name: 'Database Design', category: 'Databases' },
-  { name: 'Git', category: 'Tools' },
-  { name: 'GitHub', category: 'Tools' },
-  { name: 'Firebase', category: 'Tools' },
-  { name: 'VS Code', category: 'Tools' },
+  { name: 'HTML', category: 'Programming', icon: 'FileCode' },
+  { name: 'CSS', category: 'Programming', icon: 'Paintbrush' },
+  { name: 'JavaScript', category: 'Programming', icon: 'FileJson2' },
+  { name: 'Python', category: 'Programming', icon: 'Pyramid' },
+  { name: 'Java', category: 'Programming', icon: 'Coffee' },
+  { name: 'Data Preprocessing', category: 'AI / ML', icon: 'Scaling' },
+  { name: 'Model Training', category: 'AI / ML', icon: 'BrainCircuit' },
+  { name: 'Basic ML Algorithms', category: 'AI / ML', icon: 'Bot' },
+  { name: 'Firebase Firestore', category: 'Databases', icon: 'Database' },
+  { name: 'Database Design', category: 'Databases', icon: 'DatabaseZap' },
+  { name: 'Git', category: 'Tools', icon: 'GitMerge' },
+  { name: 'GitHub', category: 'Tools', icon: 'Github' },
+  { name: 'Firebase', category: 'Tools', icon: 'Flame' },
+  { name: 'VS Code', category: 'Tools', icon: 'Code' },
 ];
 
 export const projectCategories: ProjectCategory[] = ['AI / ML', 'Database', 'Web', 'Game Development'];
