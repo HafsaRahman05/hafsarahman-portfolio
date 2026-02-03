@@ -21,7 +21,7 @@ export function HeroSection() {
           </p>
         </div>
         <p className="max-w-[700px] text-muted-foreground md:text-xl leading-relaxed">
-          A passionate developer crafting intelligent solutions with a focus on AI, Machine Learning, and modern Web Development.
+          A passionate software engineering student specializing in AI-driven applications and modern full-stack web development.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Button asChild size="lg" className="group">
